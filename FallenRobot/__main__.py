@@ -90,11 +90,11 @@ PM_START_TEXT = """
 buttons = [
     [       
         InlineKeyboardButton(text="♥️ ɪɴғᴏ ♥️", callback_data="about_"),
-        InlineKeyboardButton(text="🤍 ᴍᴜsɪᴄ 🤍", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="🤍 ᴍᴜsɪᴄ 🤍", url=f"https://t.me/kimds_xD"),
     ],
    [
-        InlineKeyboardButton(text="🙋🏻 ʜᴇʟᴘ 🙋🏻", url=f"http://t.me/{UPDATE_CHANNEL}"),
-        InlineKeyboardButton(text="🔎 ɪɴʟɪɴᴇ 🔎", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🙋🏻 ʜᴇʟᴘ 🙋🏻", url=f"https://t.me/kimds_xD"),
+        InlineKeyboardButton(text="🔎 ɪɴʟɪɴᴇ 🔎", url=f"https://t.me/kimds_xD"),
     ],
     [  
         InlineKeyboardButton(text="❣️ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ❣️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
