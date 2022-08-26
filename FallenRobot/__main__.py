@@ -74,9 +74,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ *{}*\n ɪ'ᴍ 𝗙𝝙𝗟𝗟𝝣𝗡 ✘ 𝗥𝗢𝗕𝗢𝗧* ‌ٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖ[!](https://telegra.ph/file/8ad7dde916d41d21e022a.jpg)\n*ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ\n  ɪ ʜᴀᴠᴇ ᴀᴡᴇsᴏᴍᴇ ꜰᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ᴍᴇ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴏʀ ʜɪᴛ*​ /help
+[🌈]' ☞ *✰Hello... Friends {}*  [!]({})
+───────────────────────
+Im Powerfull Management Bot And I Will Help In Managing Your Group.
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+× *Uptime:* {}
+× {} *User, Across* {} *Chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➤ Try The Help Buttons Below To Know My Abilities. 
+Maintained By:- [Unknown Sʜᴀᴅᴏᴡ](T.ME/ITZ_SHADOW_XD).
+───────────────────────
 """
-
 buttons = [
     [
         InlineKeyboardButton(
