@@ -88,11 +88,11 @@ buttons = [
         InlineKeyboardButton(text="𝙊𝙬𝙣𝙚𝙧 👨‍✈️", url=f"https://t.me/kimds_xD"),
     ],
    [
-        InlineKeyboardButton(text="📇 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url=f"http://t.me/{UPDATE_CHANNEL}"),
-        InlineKeyboardButton(text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🫂", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="📇 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url=f"http://t.me/UNIQUE_SOCIETY"),
+        InlineKeyboardButton(text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🫂", url=f"https://t.me/All_Dear_Comrade"),
     ],
     [  
-        InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/KIARA_RO_BOT?startgroup=true"),
     ], 
     
 ]
