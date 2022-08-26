@@ -77,10 +77,7 @@ PM_START_TEXT = """
 [🌈]' ☞ *✰Hello... Friends {}*  [!]({})
 ───────────────────────
 Im Powerfull Management Bot And I Will Help In Managing Your Group.
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-× *Uptime:* {}
-× {} *User, Across* {} *Chats.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
+
 ➤ Try The Help Buttons Below To Know My Abilities. 
 Maintained By:- [Unknown Sʜᴀᴅᴏᴡ](T.ME/ITZ_SHADOW_XD).
 ───────────────────────
@@ -88,24 +85,18 @@ Maintained By:- [Unknown Sʜᴀᴅᴏᴡ](T.ME/ITZ_SHADOW_XD).
 buttons = [
     [
         InlineKeyboardButton(
-            text="✗ ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ​ ✗", url="t.me/FallenXRobot?startgroup=true"),
+            text=f"➕️ Add {BOT_NAME} to your group ➕️", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+        ),
     ],
     [
-        InlineKeyboardButton(
-            text="✗ ʜᴇʟᴘ & ᴄᴍᴅs​​​ ✗", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="✗ ᴀʙᴏᴜᴛ ᴍᴇ​​ ✗", callback_data="fallen_"),
-        InlineKeyboardButton(
-            text="✗ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✗", callback_data="source_"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="✗ sᴜᴘᴘᴏʀᴛ ✗", url="https://t.me/DevilsHeavenMF"
+        InlineKeyboardButton(text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="✗ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✗", url="https://t.me/anonymous_was_bot"
+            text="TryInline", switch_inline_query_current_chat=""
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"
         ),
     ],
 ]
