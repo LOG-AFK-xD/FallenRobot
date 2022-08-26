@@ -89,7 +89,7 @@ PM_START_TEXT = """
 """
 buttons = [
     [       
-        InlineKeyboardButton(text=♥️ ɪɴғᴏ ♥️", callback_data="about_"),
+        InlineKeyboardButton(text="♥️ ɪɴғᴏ ♥️", callback_data="about_"),
         InlineKeyboardButton(text="🤍 ᴍᴜsɪᴄ 🤍", url=f"https://t.me/{OWNER_USERNAME}"),
     ],
    [
