@@ -74,25 +74,30 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-[🌈]' ☞ *✰Hello... Friends {}*  [!]({})
+*ʜᴇʟʟᴏ* {}, 
 ───────────────────────
-Im Powerfull Management Bot And I Will Help In Managing Your Group.
-
-➤ Try The Help Buttons Below To Know My Abilities. 
-Maintained By:- [Unknown Sʜᴀᴅᴏᴡ](T.ME/ITZ_SHADOW_XD).
+✪ ɪ ᴀᴍ  ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
+ᴡɪᴛʜ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs ʙᴜᴅᴅʏ
+─────────────
+ ➻ ᴜᴘᴛɪᴍᴇ: 11h:33m:35s
+ ➻ ᴜsᴇʀs: 2085
+ ➻ chats: 76
+─────────────
+✪ ʜɪᴛ ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴜᴅᴅʏ 
+➥:ғɪʀꜱᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ᴛʜᴇɴ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴀʙʏ
 ───────────────────────
 """
 buttons = [
     [       
-        InlineKeyboardButton(text="👩‍💻 𝙄𝙣𝙛𝙤", callback_data="about_"),
-        InlineKeyboardButton(text="𝙊𝙬𝙣𝙚𝙧 👨‍✈️", url=f"https://t.me/kimds_xD"),
+        InlineKeyboardButton(text=♥️ ɪɴғᴏ ♥️", callback_data="about_"),
+        InlineKeyboardButton(text="🤍 ᴍᴜsɪᴄ 🤍", url=f"https://t.me/{OWNER_USERNAME}"),
     ],
    [
-        InlineKeyboardButton(text="📇 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url=f"http://t.me/UNIQUE_SOCIETY"),
-        InlineKeyboardButton(text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🫂", url=f"https://t.me/All_Dear_Comrade"),
+        InlineKeyboardButton(text="🙋🏻 ʜᴇʟᴘ 🙋🏻", url=f"http://t.me/{UPDATE_CHANNEL}"),
+        InlineKeyboardButton(text="🔎 ɪɴʟɪɴᴇ 🔎", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [  
-        InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/KIARA_RO_BOT?startgroup=true"),
+        InlineKeyboardButton(text="❣️ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ❣️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
     ], 
     
 ]
