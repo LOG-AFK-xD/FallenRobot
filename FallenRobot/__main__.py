@@ -85,7 +85,7 @@ Maintained By:- [Unknown Sʜᴀᴅᴏᴡ](T.ME/ITZ_SHADOW_XD).
 buttons = [
     [       
         InlineKeyboardButton(text="👩‍💻 𝙄𝙣𝙛𝙤", callback_data="about_"),
-        InlineKeyboardButton(text="𝙊𝙬𝙣𝙚𝙧 👨‍✈️", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="𝙊𝙬𝙣𝙚𝙧 👨‍✈️", url=f"https://t.me/kimds_xD"),
     ],
    [
         InlineKeyboardButton(text="📇 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url=f"http://t.me/{UPDATE_CHANNEL}"),
